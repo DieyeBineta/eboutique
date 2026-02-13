@@ -2,9 +2,11 @@ spring:
   application:
     name: eboutique
   datasource:
-    username: root
-    password: passer123
-    url: jdbc:mysql://localhost:3306/e_boutique
+    username: eboutique
+    password: eboutique
+    url: jdbc:mysql://localhost:3306/eboutique
   jpa:
     hibernate:
       ddl-auto: create
+
+    show-sql: true
